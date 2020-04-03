@@ -65,6 +65,13 @@ external make:
             =?,
     ~href: string=?,
     ~target: Web.target=?
+    ~onMouseDown: ReactEvent.Mouse.t => unit=?,
+    ~onMouseEnter: ReactEvent.Mouse.t => unit=?,
+    ~onMouseLeave: ReactEvent.Mouse.t => unit=?,
+    ~onMouseMove: ReactEvent.Mouse.t => unit=?,
+    ~onMouseOver: ReactEvent.Mouse.t => unit=?,
+    ~onMouseOut: ReactEvent.Mouse.t => unit=?,
+    ~onMouseUp: ReactEvent.Mouse.t => unit=?
   ) =>
   React.element =
   "TouchableHighlight";
