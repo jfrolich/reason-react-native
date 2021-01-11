@@ -61,7 +61,7 @@ external make:
           ]
             =?,
     ~href: string=?,
-    ~target: Web.target=?
+    ~target: Web.target=?,
     // React Native Web Props
     ~onMouseDown: ReactEvent.Mouse.t => unit=?,
     ~onMouseEnter: ReactEvent.Mouse.t => unit=?,
